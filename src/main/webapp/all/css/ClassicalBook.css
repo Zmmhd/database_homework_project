@@ -1,0 +1,269 @@
+.header{
+    background-image: url(/static/all/imagines/6.jfif);
+    height: 5.2cm;
+    background-position: center;
+    margin: 5px 25px 0px 25px;
+    border-color: #d2b42c;
+    border-width: 0.1cm;
+    border-style: solid;
+    /*margin-left: auto;
+    margin-right: auto;*/
+}
+h1.textstyle{
+       font-family: Harrington;
+       margin-top: 1cm;
+       text-align: center;
+       padding-top: 0.5cm;
+       font-size: 1.5cm;
+       color: rgb(214, 198, 134);
+       font-weight: bolder;
+       
+}
+img.textstyle{
+    width: 4cm;
+    height: 3cm;
+}
+span.textstyle{
+    font-weight: bolder;
+}
+p.textstyle{
+    color: rgb(201, 186, 129);
+    font-family:cursive;
+    margin-left: 14.7cm;
+    position: absolute;
+    margin-top: -0.7cm;
+}
+
+.headermiddle{
+    margin-left: 7cm;
+}
+nav ul{
+    background-color: #132c33;
+    margin-top: 0.2cm;
+    list-style-type: none;/*删除列表项的项目符号*/
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 0.7cm;
+    padding-top: 0.3cm;
+    border-color: #8a988e;
+    border-width: 0.1cm;
+    border-radius: 5%;
+    border-style: solid;
+  }
+  nav ul li{
+    display: inline;/*从block变为inline列表项就不会再有回车*/
+    padding: 5px 0px 5px 5px;
+  }
+  nav ul li.selected{
+    background-color: #645822;
+    border-color: #8a988e;
+    border-style: solid;
+    border-width: 0.05cm;
+    border-top-width: 0.15cm;
+  }
+  nav ul li a:link,ul li a:visited{
+    color: #a7a8bd;
+  }
+  nav ul li a:hover{
+     color:#e3b4b8;
+  }
+  nav ul li:hover ul{
+    background-color: blanchedalmond;
+    display: block;
+  }
+
+  nav ul li ul li a:hover {
+     color: #61649f;
+    }
+  
+ 
+  /*关键一：将二级菜单设置为display：none;*/
+  nav ul li ul{
+    position: absolute;
+    top:6.7cm;
+    width: 11cm;
+    height:4cm;
+    margin-left: 0cm;
+    padding-left: 0.3cm;
+    display: none;
+    float: left;
+}
+
+/*表示整个都是列表结构*/
+div.tableContainer{
+    display: table;
+    margin-top: -0.4cm;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-spacing: 10px;/*表格之间的间距*/
+}
+/*表示列表中的一行*/
+div.tablerow{
+    display:table-row;
+}
+section#leftside{
+    display: table-cell;/*b表示列表中的元素*/
+    background-color: #132c33;
+    /*margin-left: 5cm;
+    margin-right: 340px;*/
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    width:20%;
+    color:burlywood;
+    vertical-align: top;
+    border-color: #eaad1a;
+    border-width: 0.1cm;
+    border-style: solid;
+}
+.baimg{
+    position:absolute;/*绝对位置，可以随便移动*/
+    left: 500px;
+    width: 3cm;
+    height: 2cm;
+}
+section#main{
+    display: table-cell;
+    background-color: #132c33;
+    /*margin-left: 5cm;
+    margin-right: 340px;*/
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    width: 50%;
+    vertical-align: top;/*确保表格中的两个单元格的所有内容相对于单元格上边对齐*/
+    border-color: #eaad1a;
+    border-width: 0.1cm;
+    border-style: solid;
+}
+
+.imgstyle{
+    height:6cm;
+    width:auto;
+}
+h2.textstyle{
+    color: darkkhaki;
+    font-weight: bolder;
+    padding-top: 0.2cm;
+}
+.text{
+    font-family: 宋体;
+    color: darkkhaki;
+    line-height: 0.7cm;
+}
+section#rightside{/*section区块中指定样式*/
+    display: table-cell;
+    background-color: #132c33;
+    text-align: center;
+    color: darkkhaki;
+    width: 30%;
+    /*margin-top: 0.5cm;
+    margin-left: 24.5cm;*/
+    vertical-align: top;
+    /*top:6.75cm;
+    right:0.5cm;
+    position: absolute;/*absolute是绝对位置，默认的static是相对位置*/
+    border-color: #eaad1a;
+    border-width: 0.1cm;
+    border-style: solid;
+}
+.middle{
+    float:none;
+}
+#footer{
+    text-align: center;
+    background-image: url(../imagines/6.jfif);
+    background-position: center;
+    height: 2cm;
+    color: cornsilk;
+    padding-top: 0.5cm;
+}
+.storeimg{
+    height: 300px;
+    border-color: #e5d3aa;
+    border-width: 0.2cm;/*边框四周的宽度*/
+    border-style: solid;
+    width: 300px;
+}
+section#honglou{
+    display: table-cell;
+    background-color: #5a191b;
+    color:#7a7374;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    width: 17cm;
+}
+h2.hl{
+    text-align: center;
+    font-family:Harrington ;
+    color: #e5d3aa;
+}
+.hlimg
+{
+    border: #e9ccd3;
+    border-width: 0.1cm;
+    border-style: solid;
+    width: 75%;
+    
+}
+
+section#sanguo{
+    display: table-cell;
+    width: 17cm;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    background-color: #584717;
+    color: #f0f5e5;
+}
+.sgimg{
+    width: 75%;
+    border: 0.1cm solid #f8df72;
+}
+
+h2.sg{
+    text-align: center;
+    font-family: Harrington;
+}
+#ticket{
+    position: fixed;/*固定在一个位置*/
+    top:300px;
+    left: -70px;
+}
+#video{
+    margin-top: 0.5cm;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2cm;
+}
+table{
+    margin-left: 10cm;
+    border-color:cornsilk;
+    border-width: 0.04cm;
+    border-style: solid;
+    caption-side: bottom;/*把表格注释放在表格下方*/
+    border-collapse:collapse;/*除去表格中小表格之间的间距*/
+}
+td,th{
+    border-style: solid;
+    border-color:cornsilk;
+    border-width: thin;
+    padding-left: 0.3cm;
+    padding-right: 0.3cm;
+    color: rgb(133, 95, 39);
+}
+caption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: darkgoldenrod;
+    margin-top: 0.2cm;
+    margin-bottom: 0.2cm;
+}
+.cellcolor{
+    background-color: darkcyan;
+}
+.tablestyle{
+    margin-left: 0.5cm;
+}
+li{
+    margin-top: 0.3cm;
+    list-style-type:georgian;/*设置的是前面的小图标*/
+    list-style-position:outside;/*"inside"表示标记就在你的列表项里，所以文本会在它下面回绕；如果是“outside”，说明标记在列表项外面*/
+}
